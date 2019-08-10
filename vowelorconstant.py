@@ -1,7 +1,7 @@
-ch=input()
-if(ord(ch)==97 or ord(ch)==101 or ord(ch)==105 or ord(ch)==111 or ord(ch)==117 or ord(ch)==65 or ord(ch)==69 or ord(ch)==73 or ord(ch)==79 or ord(ch)==85):
+ch11=input()
+if(ord(ch1)==97 or ord(ch1)==101 or ord(ch1)==105 or ord(ch1)==111 or ord(ch1)==117 or ord(ch1)==65 or ord(ch1)==69 or ord(ch1)==73 or ord(ch1)==79 or ord(ch1)==85):
     print("Vowel")
-elif((ord(ch)>=65 and ord(ch)<=90) or(ord(ch)>=97 and ord(ch)<=122)):
+elif((ord(ch1)>=65 and ord(ch1)<=90) or(ord(ch1)>=97 and ord(ch1)<=122)):
     print("Consonant")
 else:
     print("invalid")
